@@ -4,7 +4,7 @@ local getgenv: () -> ({[string]: any}) = getfenv().getgenv
 
 local function Notify(Text)
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "FrostByte Notification",
+		Title = "Nanonite Notification",
 		Text = Text,
 		Duration = 10
 	})
