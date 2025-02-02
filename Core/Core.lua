@@ -83,7 +83,7 @@ if queue_on_teleport then
         return
     end
 
-/loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/Nanonite/Initiate.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nanonite-crypto/NanoniteHub/refs/heads/main/Core/Initiate.lua"))()
     
     ]])
 end
@@ -94,7 +94,7 @@ while task.wait(Random.new():NextNumber(5 * 60, 10 * 60)) do
     end
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/Nanonite/Analytics.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Analytics.lua"))()
 
 if getgenv().Rayfield then
 getgenv().Rayfield:Destroy()
@@ -116,7 +116,7 @@ task.spawn(function()
         local Button1 = "✅ Yes" 
         local Button2 = "❌ No"
 
-        local File = `https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/Nanonite/Games/{PlaceFileName}.lua`
+        local File = `https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Games/{PlaceName}.lua`
 
         BindableFunction.OnInvoke = function(Button: string)
             Response = true
@@ -220,15 +220,15 @@ function CreateUniversalTabs()
                 })
             else
                 if setclipboard then
-                setclipboard("https://discord.gg/sS3tDP6FSB")
+                setclipboard("https://discord.gg/Nanonite")
                     Notify("Success!", "Copied Discord Link to Clipboard.")
                 end
             end
 
-            Notify("Discord", "https://discord.gg/sS3tDP6FSB")
+            Notify("Discord", "https://discord.gg/Nanonite")
     end})
 
-    Tab:CreateLabel("https://discord.gg/sS3tDP6FSB", "link")
+    Tab:CreateLabel("https://discord.gg/Nanonite", "link")
 
     Tab:CreateSection("AFK")
 
