@@ -90,7 +90,7 @@ end
 
 task.spawn(function()
 	while task.wait(Random.new():NextNumber(5 * 60, 10 * 60)) do
-		Notify("Enjoying this script?", "Join the discord at discord.gg/sS3tDP6FSB", "heart")
+		Notify("Enjoying this script?", "Join the discord at discord.gg/nanonite", "heart")
 	end
 end)
 
@@ -168,9 +168,9 @@ if PlaceFileName then
 end
 
 Window = Rayfield:CreateWindow({
-	Name = `FrostByte | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
+	Name = `Nanonite | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
 	Icon = "snowflake",
-	LoadingTitle = "❄ Brought to you by FrostByte ❄",
+	LoadingTitle = "$: Brought to you by Nanonite :$",
 	LoadingSubtitle = PlaceName,
 	Theme = "DarkBlue",
 
@@ -179,13 +179,13 @@ Window = Rayfield:CreateWindow({
 
 	ConfigurationSaving = {
 		Enabled = true,
-		FolderName = "FrostByte",
+		FolderName = "Nanonite",
 		FileName = `{getgenv().PlaceFileName or `DevMode-{game.PlaceId}`}-{Player.Name}`
 	},
 
 	Discord = {
 		Enabled = true,
-		Invite = "sS3tDP6FSB",
+		Invite = "nanonite",
 		RememberJoins = true
 	},
 })
@@ -228,7 +228,7 @@ function CreateUniversalTabs()
 		end,
 	})
 
-	Tab:CreateLabel("https://discord.gg/sS3tDP6FSB", "link")
+	Tab:CreateLabel("https://discord.gg/Nanonite", "link")
 
 	Tab:CreateSection("AFK")
 
@@ -374,7 +374,7 @@ function CreateUniversalTabs()
 		end
 		
 		if StaffRole then
-			Player:Kick(`The player '{CheckPlayer.Name}' was detected to be a staff member, their role is '{StaffRole}'.\n\nIf you believe this is false, contact the dev of FrostByte.`)
+			Player:Kick(`The player '{CheckPlayer.Name}' was detected to be a staff member, their role is '{StaffRole}'.\n\nIf you believe this is false, contact the dev of Nanonite.`)
 		end
 	end
 	
