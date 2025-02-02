@@ -419,7 +419,7 @@ function CreateUniversalTabs()
 	getgenv().NanoniteStarted()
 end
 
-getgenv().CreateUniversalTabs = CreateUniversalTabs
+--getgenv().CreateUniversalTabs = CreateUniversalTabs
 
 if not ScriptVersion or ScriptVersion == "Universal" then
     CreateUniversalTabs()
