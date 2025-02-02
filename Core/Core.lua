@@ -169,7 +169,7 @@ end
 
 Window = Rayfield:CreateWindow({
     Name = `Nanonite | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
-    Icon = "rbxassetid://4955284351", -- Example of a purple themed icon, replace with actual ID if needed
+    Icon = "rbxassetid://83471183971011", -- Example of a purple themed icon, replace with actual ID if needed
 	LoadingTitle = "💜 Brought to you by Nanonite 💜",
 	LoadingSubtitle = PlaceName,
 	Theme = "Dark", -- Assuming 'Dark' theme can be customized to purple, if not, you might need to adjust or create a custom theme
