@@ -169,10 +169,10 @@ end
 
 Window = Rayfield:CreateWindow({
 	Name = `Nanonite | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
-	Icon = "snowflake",
+	Icon = "circuit-board",
 	LoadingTitle = "$: Brought to you by Nanonite :$",
 	LoadingSubtitle = PlaceName,
-	Theme = "DarkBlue",
+	Theme = "Amethyst",
 
 	DisableRayfieldPrompts = false,
 	DisableBuildWarnings = false,
