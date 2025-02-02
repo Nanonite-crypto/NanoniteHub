@@ -1,5 +1,3 @@
-H 
-
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Initiate.lua"))()
 
 local getgenv: () -> ({[string]: any}) = getfenv().getgenv
