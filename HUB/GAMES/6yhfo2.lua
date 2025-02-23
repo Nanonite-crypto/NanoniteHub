@@ -266,6 +266,7 @@ ui:CreateToggle(clientTab, {
                     -- [[ RARE ]]
                     local pearlIndex = findTowerByName(models, "Pearl")
                     local krustykrabIndex = findTowerByName(models, "KrustyKrab")
+                    local ElasticWaistbandIndex = findTowerByName(models, "ElasticWaistband")
                     
                     -- [[ EPIC ]]
                     local atomicflounderIndex = findTowerByName(models, "AtomicFlounder")
@@ -285,8 +286,6 @@ ui:CreateToggle(clientTab, {
 
                     -- [[ SECRET ]]
                     local cyborgplanktonIndex = findTowerByName(models, "CyborgPlankton")
-                             
-                    local ElasticWaistbandIndex = findTowerByName(models, "ElasticWaistband")
                     
                     
 
