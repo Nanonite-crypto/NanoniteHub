@@ -285,6 +285,9 @@ ui:CreateToggle(clientTab, {
 
                     -- [[ SECRET ]]
                     local cyborgplanktonIndex = findTowerByName(models, "CyborgPlankton")
+                             
+                    local ElasticWaistbandIndex = findTowerByName(models, "ElasticWaistband")
+                    
                     
 
                     if MAPS[Map] == 1 then
@@ -327,6 +330,10 @@ ui:CreateToggle(clientTab, {
                                 placeTower(handsomesquidwardIndex, -58.03690719604492, 81.93077850341797, 1.950894832611084)
                                 placeTower(handsomesquidwardIndex, -45.21202087402344, 81.86216735839844, 15.895241737365723)
                                 placeTower(handsomesquidwardIndex, -58.31394958496094, 81.93077850341797, 9.955920219421387)
+                            end
+
+                            if ElasticWaistbandIndex then
+                                placeTower(ElasticWaistbandIndex, -60.40410614013672, 80.80116577148438, -0.9442237019538879)
                             end
                             if kingneptuneIndex then
                                 placeTower(kingneptuneIndex, 13.516682624816895, 82.812255859375, 11.427483558654785)
